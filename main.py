@@ -37,7 +37,6 @@ operate = operations()
 print("Welcome to the inventory management system")
 print("1. Create\n2. Read\n3. Update\n3. Delete")
 choice = int(input('Choice: '))
-
 if choice == 1:
     operate.create(1,'Banana','Fruit','$1.00')
 elif choice == 2:
